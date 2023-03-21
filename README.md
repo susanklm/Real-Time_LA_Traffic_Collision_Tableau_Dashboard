@@ -7,7 +7,7 @@ This is a project that I did at Hack for LA. The purpose of this project is to c
 4. Scheduled the query from the previous step to run every Tuesday about 5 minues past noon. 
 5. Integrated Tableau with BigQuery to create the real-time dashboard.
 
-## Below are the links of the dashboards
+## Below are the links to the dashboards
 There are two version of dashboards:
 - [First version](https://public.tableau.com/app/profile/susan.kolim/viz/la_traffic_2020_realtime/LATraffic?publish=yes): The dashboard excludes the rows where victim age, victim descent, and victim sex are null.
 - [Second version](https://public.tableau.com/app/profile/susan.kolim/viz/la_traffic_2020_realtime_v2/LATraffic): The dashboard includes the rows where victim age, victim descent, and victim sex are null by replacing the null values with values based on the proportions of non-null values. 
