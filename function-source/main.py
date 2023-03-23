@@ -4,7 +4,7 @@ from datetime import datetime
 import pandas as pd
 
 def api_to_gcs(url, filename):
-  APP_TOKEN = "prCglG1MwQhTwXRI9T1xz9hnV"
+  APP_TOKEN = "xxxxxxxxxxxxxxxxxxxx"
   headers = {'X-App-Token': APP_TOKEN,}
   response = requests.get(url, headers=headers).json()
   temp_df = pd.json_normalize(response)
